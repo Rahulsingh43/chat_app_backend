@@ -99,5 +99,6 @@ io.on('connection', async (socket) => {
 // Start server
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on portss ${PORT}`);
+  console.log(`Db HOST: ${process.env.DB_HOST} NAME: ${process.env.DB_NAME} USER: ${process.env.DB_USER} pass: ${process.env.DB_PASSWORD}`);
 });
